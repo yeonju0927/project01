@@ -1,0 +1,40 @@
+/*headBox.css(공통)*/
+
+#wrap {width: 100%; height: auto; background-color: #F1EEE8;}
+.headBox_wrap{position: fixed; z-index: 2000; width: 100%;  height: 100px; height: 6.25rem; background-color: #fff; }
+#headBox { margin: auto; /* margin-top: 30px; margin-top: 1.875rem; */
+  width:960px; width:70.278184vw; height: inherit; background-color: inherit; border-bottom: 1px solid #ccc;  margin-bottom: 20px; margin-bottom: 1.25rem;}
+
+h1 {position: absolute; left: 10%; top: 50%; margin-top: -21px; width: 140px; height: 42px; height: 2.625rem; background-image: url("../../../img/logo/logo03.png"); background-repeat: no-repeat; background-size: 140%; background-position: center;}
+h1 > a {display: block; width: 100%; height: 100%;}
+
+#navigation_all {margin-top: 25px;  float: right; width: auto; height: 24px; height: 1.5rem;}
+#gnb {width: auto; height: inherit;}
+
+
+/*---------------------#gnb > .gnb_wrap--------------------*/
+.gnb_wrap {position: relative; float: left; width: auto; height: inherit;}
+.gnb_wrap > li {float: left; margin-right: 30px; margin-right:2.196193vw;  width: auto;}
+.gnb_wrap > li:last-child {margin-right: 0;}
+.gnb_wrap > li > a {display: block; width: 100%; height: 100%; font-size: 18px; margin-bottom: 0.5rem; font-weight: bold;}
+
+.gnb_wrap  ol{position: absolute;}
+.gnb_wrap .menu ol{position: absolute; left: 0;  width:200%; }
+.gnb_wrap .store ol {width: 100px; width: 7.320644vw;}
+.gnb_wrap ol>li{float: left; margin-right: 1rem; background-color: #fff;}
+.gnb_wrap ol>li:last-child {margin-right: 0;}
+.gnb_wrap ol>li >a{display: block; width: 100%; height: 100%;}
+
+/*---------------------------drop_menu_button-------------------*/
+#drop_menu {position: absolute; right:10%; top: 50%; z-index: 2000; margin-top: -1.125rem; width: 2.25rem; height: 2.25rem; background-color: #fff;}
+#drop_menu > button {width: 100%; height: 100%;}
+.icon {display: block; width: 100%; height: 2px; height: 0.125rem; background-color: #000; position: relative; transition: all 500ms ease;}
+.icon:before {content: " "; display: block; width: 100%; height: 2px; height: 0.125rem; background-color: #000; position: absolute; top: -0.5rem; transition: all 500ms ease;}
+.icon:after {content: " "; display: block; width: 100%; height: 2px; height: 0.125rem; background-color: #000; position: absolute; bottom: -0.5rem; transition: all 500ms ease;}
+
+
+/*---------------------#gnb > .unb_wrap--------------------*/
+.unb_wrap {float: right; margin-left: 60px; margin-left: 4.392386vw; width: auto; height: 24px; height: 1.5rem; }
+.unb_wrap > li {float: left; width: auto; height: inherit; margin-right: 10px; margin-right: 0.732064vw;}
+.unb_wrap > li:last-child {margin-right: 0;}
+.unb_wrap > li > a {display: block; width: 100%; height: 100%; font-size: 14px;}

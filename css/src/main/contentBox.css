@@ -1,0 +1,21 @@
+/*contentBox.css*/
+#contentBox {width: 100%; height: auto; margin-bottom: 30px; margin-bottom: 1.875rem;}
+
+.event_card {margin: auto; width: 700px; width: 43.75rem; height: 180px; height: 11.25rem; margin-bottom: 50px; margin-bottom: 3.125rem;}
+.event_card > li {float: left; margin-right: 100px; margin-right: 6.25rem;  width: 300px; width: 18.75rem; height: inherit; background-color: #ccc; background-repeat: no-repeat; background-size: contain; background-position: center;}
+.event_card > li > a {display: block; width: 100%; height: 100%;}
+
+.event_card > li:last-child {margin-right: 0;}
+.season_invite {background-image: url("../../../img/contentBox/season_herb.jpg");}
+.season_wine {background-image: url("../../../img/contentBox/season_madwine.jpg");}
+
+
+.shortcut {width: 950px; width: 69.546120vw; height: 300px; height: 18.75rem; margin: auto;}
+.shortcut > li {float: left;  width: 300px; width: 21.961932vw; height: inherit; margin-right: 24px; margin-right: 1.756954vw; padding:60px 10px 30px 10px; padding:3.75rem 0.625rem 1.875rem 0.625rem; box-sizing: border-box; text-align: center; background-repeat: no-repeat; background-size: cover; background-position: center;}
+.shortcut > li > a {display: block; width: 100%; height: 100%;}
+.shortcut > li:nth-child(1) {background-image: url("../../../img/contentBox/membership_join_pc.png"); }
+.shortcut > li:nth-child(2) {background-image: url("../../../img/contentBox/view_menu_pc.png"); }
+.shortcut > li:nth-child(3) {background-image: url("../../../img/contentBox/find_store_pc.png"); margin-right: 0;}
+.shortcut > li > a > h3 {position: relative; color: #fff; font-size: 18px;}
+.shortcut > li > a > h3:after {position: absolute; left: 50%; margin-left: -3.125rem;  bottom: -0.625rem; display: block; content: " "; border: 1px solid #fff; width: 6.25rem;}
+.shortcut > li > a > p {color: #fff; font-size: 16px; width: inherit; height: auto; margin: auto; margin-top: 43px; margin-top: 2.6875rem; line-height: 140%; word-break: keep-all;}

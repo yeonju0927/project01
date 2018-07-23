@@ -1,0 +1,36 @@
+/*공통영역 (pc-laptop 기준으로 작성 중*/
+
+
+@import url("./all/headBox.css");
+@import url("./all/headBox/headBox_mobile.css");
+@import url("./all/headBox/headBox_pc.css");
+@import url("./all/headBox/headBox_pcfull.css");
+@import url("./all/headBox/headBox_tablet.css");
+
+
+@import url("./main/adBox.css");
+@import url("./main/adBox_mobile.css");
+@import url("./main/adBox_pc.css");
+@import url("./main/adBox_pcfull.css");
+@import url("./main/adBox_tablet.css");
+
+
+
+
+
+@import url("./main/contentBox.css");
+@import url("./main/contentBox_mobile.css");
+@import url("./main/contentBox_pc.css");
+@import url("./main/contentBox_pcfull.css");
+@import url("./main/contentBox_tablet.css");
+
+
+
+
+@import url("./all/footBox.css");
+@import url("./all/footBox/footBox_mobile.css");
+@import url("./all/footBox/footBox_pc.css");
+@import url("./all/footBox/footBox_pcfull.css");
+@import url("./all/footBox/footBox_tablet.css");
+
+@import url("./main/top_btn.css");

@@ -1,0 +1,21 @@
+/*pc_full(min-width:1367px)*/
+@media screen and (min-width:1367px) {
+#adBox {position: relative; padding-top: 80px; padding-top: 5rem; margin: auto; width: 950px; width: 69.546120vw; height: 600px; height: 37.5rem; background-color: #fca;  margin-bottom: 50px; margin-bottom: 3.125rem;}
+.indicator {position: absolute; bottom: 5%; left:50%; margin-left: -54px; margin-left: -3.953147vw; width: 108px; width: 7.906295vw; height: 28px; height: 1.75rem;}
+.indicator > ul {width: 108px; width: 7.906295vw; height: 100%;}
+.indicator > ul > li {float: left; width: 28px; width: 2.049780vw; height: 2.049780vw; margin-right: 12px; margin-right: 0.878477vw; background-color: rgba(405,405,405,0.5); border-radius: 100%;}
+.indicator > ul > li:last-child {margin-right: 0;}
+.indicator > ul > li > a {display: block; width: 100%; height: 100%; border-radius: inherit;}
+
+.adBanner > ul > li {background-size: 100% 100%;}
+.adBanner > ul > li:nth-child(1) {background-image: url("../../../img/adBox/banner01_pcfull.jpg");}
+.adBanner > ul > li:nth-child(2) {background-image: url("../../../img/adBox/banner02_pc.jpg");}
+.adBanner > ul > li:nth-child(3) {background-image: url("../../../img/adBox/banner03_pc.jpg");}
+
+.arrow_button {width: 100%; height: 0px;}
+#prev_btn { position: absolute; left:0;  width: 60px;  width: 3.75rem;  height: 600px; height: 37.5rem; background-color: rgba(85,85,85,0.3); padding: 0;
+background-image: url("../../../img/icon/prev_arrow.png"); background-repeat: no-repeat; background-position: 8px 50%;}
+#next_btn { position: absolute; right:0; width: 60px;  width: 3.75rem;  height: 600px; height: 37.5rem; background-color: rgba(85,85,85,0.3); padding: 0;
+background-image: url("../../../img/icon/next_arrow.png"); background-repeat: no-repeat; background-position: 8px 50%;}
+
+}

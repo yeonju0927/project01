@@ -1,0 +1,22 @@
+/* #adBox */
+#adBox {position: relative; padding-top: 100px; padding-top: 6.25rem; margin: auto; width: 950px; width: 59.375rem; height: 426px; height: 26.625rem; margin-bottom: 50px; margin-bottom: 3.125rem;}
+.indicator {position: absolute; bottom: 5%; left:50%; margin-left: -54px; margin-left: -3.953147vw; width: 108px; width: 7.906295vw; height: 28px; height: 1.75rem;}
+.indicator > ul {width: 108px; width: 7.906295vw; height: 100%;}
+.indicator > ul > li {float: left; width: 28px; width: 2.049780vw; height: 2.049780vw; margin-right: 12px; margin-right: 0.878477vw; background-color: rgba(405,405,405,0.5); border-radius: 100%;}
+.indicator > ul > li:last-child {margin-right: 0;}
+.indicator > ul > li > a {display: block; width: 100%; height: 100%; border-radius: inherit;}
+
+
+.arrow_button {width: 100%; height: 0px;}
+#prev_btn { position: absolute; left:0;  width: 60px;  width: 3.75rem;  height: 426px; height: 26.625rem; background-color: rgba(85,85,85,0.3); 
+background-image: url("../../../img/icon/prev_arrow.png"); background-repeat: no-repeat; background-position: 8px 176px;}
+#next_btn { position: absolute; right:0; width: 60px;  width: 3.75rem;  height: 426px; height: 26.625rem; background-color: rgba(85,85,85,0.3); 
+background-image: url("../../../img/icon/next_arrow.png"); background-repeat: no-repeat; background-position: 8px 176px;}
+
+
+.adBanner {width: 100%; height: inherit;  overflow: hidden; }
+.adBanner > ul {width: 300%; height: inherit;}
+.adBanner > ul > li {float: left; width: 33.333333%; height: inherit; background-repeat: no-repeat; background-size: 100% 100%; background-position: center;}
+.adBanner > ul > li:nth-child(1) {background-image: url("../../../img/adBox/banner01_pc.jpg");}
+.adBanner > ul > li:nth-child(2) {background-image: url("../../../img/adBox/banner02_pc.jpg");}
+.adBanner > ul > li:nth-child(3) {background-image: url("../../../img/adBox/banner03_pc.jpg");}

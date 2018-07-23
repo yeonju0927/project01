@@ -1,0 +1,5 @@
+/*contentBox (min-width:1367px)*/
+@media screen and (min-width:1367px) {
+.shortcut > li > a > h3 {font-size: 22px;}
+.shortcut > li > a > p {margin: auto; margin-top: 2.5rem; font-size: 18px; line-height: 160%;}
+}

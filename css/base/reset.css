@@ -1,0 +1,67 @@
+/* reset.css */
+/* 크로스브라우징이 가능하도록 각 브라우저의 상태를 동일하게 기본 형태로 변경 */
+
+:root{font-size: 16px;}
+
+
+html, body {margin: 0; padding: 0; height: 100%; font-family: NanumBarunGothic;}
+h1,h2,h3,h4,h5,h6,
+p,pre,div,ul,ol,li,dl,dt,dd,img,
+form, fieldset, legend, input, label, textarea, select {margin: 0; padding: 0; border: 0; outline: 0;}
+
+table, thead, tbody, tfoot, caption, td, tr, th {margin: 0; padding: 0; border:1px solid #777; border-spacing: 0; border-collapse: collapse;}
+thead{background-color: #faa;}
+tbody{background-color: #dfdfdf;}
+tfoot{background-color: #faa;}
+
+ul,ol,li {list-style: none;}
+
+a {text-decoration: none; color: #333;}
+
+
+address{font-style: normal;}
+
+
+
+input, textarea, select {box-sizing: border-box; border: 1px solid #777; border-radius: 0;}
+input[type="text"],
+input[type="password"],
+input[type="search"],
+input[type="email"],
+input[type="url"] {text-indent: 0.3rem;}
+
+button, input[type="submit"], input[type="reset"], input[type="button"],
+input[type="file"] {border:0; background: transparent; border-radius: 0;}
+
+select, button {
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  -ms-appearance:none;
+  -o-appearance:none;
+  appearance:none;
+}
+
+
+button {border:0; background:transparent; border-radius: 0;}
+
+table,thead,tbody,tr,th,td {border: 1px solid #333; border-spacing: 0; border-collapse: collapse;}
+th, td {margin: 0; padding: 0;}
+caption {width: 100%; height: auto; margin-bottom: 0.5rem; font-weight: bold;}
+
+/* html5-------*/
+main, header,nav,article,section,footer,aside,figure,figcaption {display: block;}
+
+/* common.css */
+/* 공통의 이름을 생성해서 하나의 이름을 부여하면 동일하게 동작하도록 처리하는 기법 */
+
+.clearfix::after, .clearfix:after {content: " "; display:block; width: 100%; height: 0; clear:both;}
+
+.hidden_wrap a {display: block; width: 100%; height: 100%;}
+.hidden, .hidden_wrap span {display: block; width: 0; height: 0; position: absolute; z-index: -100; overflow: hidden;}
+
+/* focus 처리 시*/
+a:focus,
+button:focus,
+input:focus,
+text-area:focus,
+select:focus {outline: 2px solid #f06; position: relative; z-index: 1000;}

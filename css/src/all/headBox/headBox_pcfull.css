@@ -1,0 +1,6 @@
+/*headBox_pcfull(min-width:1367px)*/
+
+@media screen and (min-width:1367px) {
+
+#drop_menu {display: none;}
+}

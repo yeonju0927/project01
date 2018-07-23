@@ -1,0 +1,22 @@
+
+
+@media screen and (max-width:280px) { 
+#adBox { padding-top: 50px; padding-top: 3.125rem; width: 100%; height: 282px; height: 17.625rem;  margin-bottom: 15px; margin-bottom: 0.9375rem;}
+.indicator {display: none;}
+.arrow_button {display: none;}
+
+.adBanner > ul > li:nth-child(1) {background-image: url("../../../img/banner01_mobile.jpg");}
+.adBanner > ul > li:nth-child(2) {background-image: url("../../../img/");}
+.adBanner > ul > li:nth-child(3) {background-image: url("../../../img/");}
+}
+
+@media screen and (min-width:281px) and (max-width: 480px) {
+#adBox { padding-top: 4.125rem; width: 100%; height: 17.625rem; margin-bottom: 0.9375rem;}
+.indicator {display: none;}
+.arrow_button {display: none;}
+
+.adBanner > ul > li {background-size: contain;}
+.adBanner > ul > li:nth-child(1) {background-image: url("../../../img/adBox/banner01_mobile.jpg");}
+.adBanner > ul > li:nth-child(2) {background-image: url("../../../img/adBox/banner02_mobile.jpg");}
+.adBanner > ul > li:nth-child(3) {background-image: url("../../../img/adBox/banner03_mobile.jpg");}
+}

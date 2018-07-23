@@ -1,0 +1,10 @@
+/*contentBox_tablet(min-width:481px) and (max-width:768px)*/
+@media screen and (min-width:481px) and (max-width:768px) {
+  #contentBox {margin: auto;  width: 704px; width: 91.666666vw;  height: auto;margin-bottom: 15px; margin-bottom: 0.9375rem;}
+  .shortcut {width: 100%; height: 100%;}
+  .shortcut > li {width: 28.90625vw; height: 28.90625vw;  margin-right: 10px; margin-right: 0.625rem; padding:3.125rem 0.625rem 3.125rem 0.625rem; box-sizing: border-box;}
+  .shortcut > li:nth-child(1) {background-image: url("../../../img/contentBox/membership_join_tablet.png"); }
+  .shortcut > li:nth-child(2) {background-image: url("../../../img/contentBox/view_menu_tablet.png"); }
+  .shortcut > li:nth-child(3) {background-image: url("../../../img/contentBox/find_store_tablet.png"); }
+  .shortcut > li > a > p {margin-top: 18px;}
+}
