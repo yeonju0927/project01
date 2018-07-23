@@ -1,0 +1,4 @@
+/*contentBox_pcfull.css*/
+
+.introBox > p {padding: 1rem; box-sizing: border-box;}
+.introBox > dl > dd {height: auto; min-height: 10rem;}

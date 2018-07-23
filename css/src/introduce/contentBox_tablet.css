@@ -1,0 +1,10 @@
+/*content_tablet.css*/
+  @media screen and (min-width:481px) and (max-width:768px) { 
+
+.introBox {padding-top: 100px; padding-top: 6.25rem;}
+.introBox > p {font-size: 1rem; height: auto;}
+.introBox > h3 {font-size: 2rem;}
+.introBox > dl > dd {position: absolute; z-index: 1000; top:50%; margin-top: -70px; margin-top: -4.375rem; right: 0; font-size: 1rem; padding: 1rem; width: 320px; width: 41.666666vw; height: 140px; height: 18.229166vw; }
+
+
+  }
