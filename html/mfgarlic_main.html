@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<!-- mfgarlic_main.html -->
+
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=0.5">
+  <!-- import css -->
+  <link rel="stylesheet" type="text/css" href="../css/base/reset.css">
+  <link rel="stylesheet" type="text/css" href="../css/src/mfgarlic_main.css">
+  <!-- ie -->
+  
+  <!-- [if lte IE9]> 
+    <script src="../ie/html5shiv/dist/html5shiv.min.js"></script>
+    <script src="../ie/pie/PIE_IE9.js"></script>
+  <![endif] -->
+  
+  <!-- favicon -->
+  <!-- <link rel="apple-touch-icon" href="../favicon.png" />
+  <link rel="shortcut icon" type="image/x-icon" href=" favicon.ico" /> -->
+  <title> project_01_main</title>
+
+</head>
+<body>
+  <div id="wrap">
+    <div class="headBox_wrap">
+      <header id="headBox">
+        <h1><a href="mfgarlic_main.html"><span class="hidden">logo</span></a></h1>
+        <div id="navigation_all">
+          <div id="drop_menu">
+            <button type="button" class="active">
+              <i class="icon"></i>
+              <span class="hidden">gnb버튼</span>
+            </button>
+          </div>
+          <nav id="gnb">
+            <h2 class="hidden">내비게이션</h2>
+            <ul class="gnb_wrap">
+              <li>
+                <a href="#">브랜드</a>
+                <ol>
+                  <li><a href="#">소개</a></li>
+                </ol>
+              </li>
+              <li class="menu">
+                <a href="#">메뉴</a>
+                <ol>
+                  <li><a href="#">신메뉴</a></li>
+                  <li><a href="#">샐러드</a></li>
+                  <li><a href="#">파스타</a></li>
+                  <li><a href="#">피자</a></li>
+                  <li><a href="#">라이스/리조또</a></li>
+                  <li><a href="#">스테이크</a></li>
+                  <li><a href="#">디저트</a></li>
+                  <li><a href="#">음료/와인</a></li>
+                </ol>
+              </li>
+              <li>
+                <a href="#">이벤트</a>
+                <ol>
+                  <li><a href="#">진행 중인 이벤트</a></li>
+                </ol>
+              </li>
+              <li class="membership">
+                <a href="#">제휴/멤버십</a>
+                <ol>
+                  <li><a href="#">제휴</a></li>
+                  <li><a href="#">멤버십</a></li>
+                </ol>
+              </li>
+              <li class="store">
+                <a href="#">스토어</a>
+                <ol>
+                  <li><a href="#">매장찾기</a></li>
+                </ol>
+              </li>
+            </ul>
+            <ul class="unb_wrap">
+              <li><a href="#">로그인</a></li>
+              <li><a href="#">회원가입</a></li>
+              <li><a href="#">고객지원</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+    </div>
+<!--     middle_wrap
+<div id="middle_wrap"> -->
+      <!-- adBox(banner) -->
+      <aside id="adBox">
+        <h2 class="hidden">광고영역</h2>
+        <div class="indicator">
+          <ul>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+          </ul>
+        </div>
+        <div class="arrow_button">
+          <button type="button" id="prev_btn">
+            <span class="hidden">이전 보기 버튼</span>
+          </button>
+
+          <button type="button" id="next_btn">
+            <span class="hidden">다음 보기 버튼</span>
+          </button>
+        </div>
+
+        <div class="adBanner">
+          <ul>
+            <li class="banner01"></li>
+            <li class="banner02"></li>
+            <li class="banner03"></li>
+          </ul>
+        </div>
+      </aside>
+      <!-- //adBox(banner) -->
+      <article id="contentBox" class="clearfix">
+        <h2 class="hidden">콘텐츠 바로가기</h2>
+      <!-- 프로모션/신메뉴 바로가기 -->
+        <ul class="event_card">
+          <li class="season_invite"><a href="#"></a></li>
+          <li class="season_wine"><a href="#"></a></li>
+        </ul>
+      <!-- 멤버십/메뉴/매장 바로가기 -->
+        <ul class="shortcut">
+          <li>
+            <a href="#">
+              <h3>멤버십 가입</h3>
+              <p>매드포갈릭 회원에게만 제공되는<br />다양한 프로모션, 혜택을 받아보세요</p></a>
+          </li>
+          <li>
+            <a href="#">
+              <h3>메뉴 보기</h3>
+              <p>매드포갈릭만의 특별한 풍미,<br />메뉴에 맞는 추천 와인까지</p></a>
+          </li>
+          <li>
+            <a href="#">
+              <h3>매장 찾기</h3>
+              <p>가까운 매장을 찾아보세요</p></a>
+          </li>
+        </ul>  
+      </article>
+
+<!--     </div> -->
+
+    <footer id="footBox">
+      <h2 class="hidden">회사 주소 및 앱 다운로드</h2>
+      <address>서울특별시 중구 동호로 15길 31, B동(신당동, 종하빌딩)<br />COPYRIGHT ⓒ MFGKOREA ALL RIGHTS RESERVED.</address>
+      <div class="app_download">
+        <div class="appstore"><a href="https://itunes.apple.com/kr/app/maedeupogallig-mad-for-garlic/id976523892" target="blank"><span class="hidden">앱스토어에서 앱 다운로드</span></a></div>
+        <div class="playstore"><a href="https://play.google.com/store/apps/details?id=com.madforgarlic.app&hl=ko" target="blank"><span class="hidden">플레이스토어에서 앱 다운로드</span></a></div>
+      </div>
+    </footer>
+    <div id="top_btn">
+      <a href="#"><span class="hidden">상단으로 이동</span></a>
+    </div>
+
+  </div> 
+
+  <!-- javjascript -->
+  <script src="../js/base/jQuery-3.3.1.min.js"></script>
+  <script src="../js/base/jQuery-ui.min.js"></script>
+  <script src="../js/src/mfgarlic_main.js"></script>  
+</body>
+</html>
