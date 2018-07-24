@@ -1,0 +1,10 @@
+/*contentBox_mobile.css*/
+
+/*mobile(max-width:280px)*/
+@media screen and (max-width:280px) { }
+
+
+
+
+/*mobile(min-width:281px) and (max-width: 480px)*/
+@media screen and (min-width:281px) and (max-width: 480px) {}

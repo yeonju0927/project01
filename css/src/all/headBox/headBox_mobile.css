@@ -1,7 +1,7 @@
 /*headBox_mobile(280px-------------------------*/
 @media screen and (max-width:280px) {
 
-.headBox_wrap {position: fixed; z-index: 1000;  width: 100%; height: 50px; height: 3.125rem;}
+.headBox_wrap {position: fixed; z-index: 12000;  width: 100%; height: 50px; height: 3.125rem;}
 
 #headBox {width: 100%; height: inherit; margin:0; background-color: #f66;}
 h1 {position: absolute; left: 50%; margin-left: -70px; margin-left: -4.375rem;}
@@ -14,7 +14,7 @@ h1 {position: absolute; left: 50%; margin-left: -70px; margin-left: -4.375rem;}
 /*일반 모바일-스마트폰 크기------------------------------------*/
 @media screen and (min-width:281px) and (max-width: 480px) {
 
-.headBox_wrap {position: fixed; z-index: 1000; width: 100%;  height: 3.125rem;}
+.headBox_wrap {position: fixed; z-index: 12000; width: 100%;  height: 3.125rem;}
 #headBox {position: relative; width: 100%; height: inherit; margin:0;}
 h1 {position: absolute; left: 50%; margin-left: -4.375rem;}
 

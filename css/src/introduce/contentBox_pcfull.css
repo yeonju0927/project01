@@ -1,4 +1,7 @@
 /*contentBox_pcfull.css*/
+@media screen and (min-width:1367px) {
 
-.introBox > p {padding: 1rem; box-sizing: border-box;}
+#sub_navi > p {margin-left: 180px;}
+.introBox > p {padding: 1rem; box-sizing: border-box; max-width: 600px; max-width: 37.5rem;}
 .introBox > dl > dd {height: auto; min-height: 10rem;}
+}

@@ -3,12 +3,18 @@
 /*mobile(max-width:280px)*/
 @media screen and (max-width:280px) {
 
-.introBox {padding-top: 90px; padding-top: 5.625rem; width: 100%;}
-.introBox > p {width: 100%; height: auto; min-height: 8.75rem;  margin-bottom: 0; font-size: 1rem; margin:0; border: 0; padding: 1.2rem; box-sizing: border-box; line-height: 200%;}
-.introBox > h3 {width: 100%; height: 180px; background-color: #fa0; text-align: center; margin-bottom: 15px; margin-bottom: 0.9375rem; line-height: 180px;}
-.introBox > dl {width: 100%; height: auto;}
+#wrap {background-image: none;}
+
+#sub_navi {padding-top: 50px; width: 100%; height: 38px; background-color: #62272A; }
+#sub_navi > p {width: 100%; height: 100%; padding:0.5rem; margin-left: 10px; color: #fff;}
+.introBox {padding-top: 88px; width: 100%;}
+.introBox > p {width: 100%; height: auto; min-height: 8.75rem;  margin-bottom: 0; font-size: 1rem; margin:0; border: 0; padding: 1.2rem; box-sizing: border-box; line-height: 200%; margin-bottom: 1rem; background-color: #fff;}
+.h3_area {/* margin-bottom: 15px; margin-bottom: 0.9375rem; */ height: auto;}
+.h3_area > .gIcon {display:  none;}
+.h3_area > h3 {width: 100%; height: 180px; background-color: #171717; text-align: center; margin-bottom: 0; line-height: 180px; font-size: 2rem;}
+.introBox > dl {width: 100%; height: auto; margin-bottom: 0;}
 .introBox > dl > dt {width: 100%; height: 242px; float: none; margin-bottom: 0;}
-.introBox > dl > dd {width: 100%; max-width: 480px; height: auto; background-color: #F1EEE8; position: static; margin:0; padding: 1rem; box-sizing: border-box; font-size: 1rem; word-break: keep-all;}
+.introBox > dl > dd {width: 100%; max-width: 480px; height: 7.5rem; background-color: #F1EEE8; position: static; margin:0; padding: 0.8rem; box-sizing: border-box; font-size: 1rem; word-break: keep-all; line-height: 150%;}
 
 }
 
@@ -17,12 +23,17 @@
 /*mobile(min-width:281px) and (max-width: 480px)*/
 @media screen and (min-width:281px) and (max-width: 480px) {
 
-.introBox {padding-top: 90px; padding-top: 5.625rem; width: 100%;}
-.introBox > p {width: 100%; height: auto; /* min-height: 8.75rem; */  margin-bottom: 0; font-size: 1rem; margin:0; border: 0; /* padding: 1.2rem; box-sizing: border-box; */ line-height: 200%; }
-.introBox > h3 {width: 100%; height: 180px; background-color: #fa0; text-align: center; margin-bottom: 15px; margin-bottom: 0.9375rem; line-height: 180px;}
-.introBox > dl {width: 100%; height: auto;}
+#sub_navi {padding-top: 50px; width: 100%; height: 38px; background-color: #62272A;}
+#sub_navi > p {width: 100%; height: 100%; padding:0.5rem; margin-left: 10px; color: #fff;}
+#wrap {background-image: none;}
+.introBox {padding-top: 88px; width: 100%;}
+.introBox > p {width: 100%; height: 120px; /* min-height: 8.75rem; */  margin-bottom: 0; font-size: 1rem; margin:0; border: 0; padding: 1.5rem 0.5rem; box-sizing: border-box;  background-color: #fff; }
+.h3_area {margin-bottom: 0; height: 180px;}
+.h3_area > .gIcon {display:  none;}
+.h3_area > h3 {width: 100%; height: 180px; background-color: #171717; text-align: center; margin-bottom: 0; line-height: 180px; font-size: 2rem;}
+.introBox > dl {width: 100%; height: auto; margin-bottom: 0;}
 .introBox > dl > dt {width: 100%; height: 242px; float: none; margin-bottom: 0;}
-.introBox > dl > dd {width: 100%; max-width: 480px; height: auto; background-color: #F1EEE8; position: static; margin:0; padding: 1rem; box-sizing: border-box; font-size: 1rem; word-break: keep-all;}
+.introBox > dl > dd {width: 100%; max-width: 480px; height: 7.5rem; background-color: #F1EEE8; position: static; margin:0; padding: 0.8rem; box-sizing: border-box; font-size: 1rem; word-break: keep-all; line-height: 150%;}
 
 }
 

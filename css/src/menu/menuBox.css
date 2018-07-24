@@ -1,0 +1,9 @@
+/*공통영역*/
+#sub_navi {position: fixed; z-index: 10000; padding-top: 100px; padding-top: 6.25rem; width: 100%; height: 38px; background-color: #62272A; }
+#sub_navi > p {width: 100%; height: 100%; padding:0.5rem; margin-left: 10px; color: #fff;}
+#menuBox {margin: auto; padding-top: 180px; padding-top: 11.25rem; width: 950px; width: 69.546120vw; height: auto;}
+.menu_banner {width: 100%; height: 343px; height: 25.109809vw; background-color: #fe0; margin-bottom: 3rem;}
+.big_image {width: 100%; height: 486px; height: 35.578330vw; background-color: #333; margin-bottom: 3rem;}
+.mini_image {width: 100%; height: 240px; height: 15rem; background-color: #fb3; margin-bottom: 3rem;}
+.mini_image > li {float: left; margin-right: 12px; margin-right: 0.878477vw; width: 180px; width: 13.177159vw; height: inherit; background-color: #ccc;}
+.mini_image > li:last-child {margin-right: 0;}

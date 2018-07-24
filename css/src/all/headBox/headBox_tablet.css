@@ -1,6 +1,6 @@
  /*headBox_tablet.css(min-width:481px) and (max-width:768px)----------------------------*/
  @media screen and (min-width:481px) and (max-width:768px) {
-  .headBox_wrap {position: fixed; z-index: 1000; height: 60px; height: 3.75rem;}
+  .headBox_wrap {position: fixed; height: 60px; height: 3.75rem;}
   #headBox {margin: auto; width: 100%; height: inherit; background-color: #fff;}
   h1 {position: absolute; left: 50%; margin-left: -70px; margin-left: -4.375rem; top:50%; margin-top: -21px; margin-top: -1.3125rem;}
 

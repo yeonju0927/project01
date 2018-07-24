@@ -1,13 +1,23 @@
 /*contentBox.css*/
-#wrap {width: 100%; height: auto; background-color: #ccc;}
-.introBox {margin: auto; width: 950px; width: 69.546120vw; height: auto; padding-top: 200px; padding-top: 12.5rem; background-color: #4D3E35;}
-.introBox > p {margin: auto; width: auto; max-width: 600px; max-width: 43.923865vw; height: 100px; height: 7.320644vw; border: 3px solid #714E34; background-color: #FFFFF2; font-size: 1.5rem; line-height: 220%; text-align: center; margin-bottom: 100px; margin-bottom: 7.320644vw; word-break: keep-all;}
-.introBox > h3 {color: #fff; font-size: 2.5rem; margin-bottom: 50px; margin-bottom: 3.660322vw;}
-.introBox > dl {position: relative; width: 100%; height: 300px; height: 21.961932vw; background-color: #fe0; margin-bottom: 50px; margin-bottom: 3.660322vw;}
-.introBox > dl:last-child {margin-bottom: 0;}
-.introBox > dl > dt { width: 500px; width: 36.603221vw; height: 100%; background-color: #faa; margin-bottom: 2rem;}
-.pride_text02 > dt, .cookspot_text02 > dt {float: right;}
+#wrap {width: 100%; height: auto; background-image: url("../../../img/introduce/garlic_light.png"); background-repeat: no-repeat; background-size: cover;}
+#sub_navi {position: fixed; z-index: 10000; padding-top: 100px; padding-top: 6.25rem; width: 100%; height: 38px; background-color: #62272A; }
+#sub_navi > p {width: 100%; height: 100%; padding:0.5rem; margin-left: 10px; color: #fff;}
+.introBox {margin: auto; width: 950px; width: 69.546120vw; height: auto; /* padding-top: 200px; padding-top: 12.5rem; */ /* background-color: #4D3E35; */}
+.introBox > p {margin: auto; width: auto; /* max-width: 600px; max-width: 43.923865vw; */height: auto;  min-height: 130px; min-height: 8.125rem; border: 3px solid #714E34; background-color: #FFFFF2; font-size: 1.3rem; line-height: 220%; text-align: center; margin-bottom: 100px; margin-bottom: 7.320644vw; word-break: keep-all;}
 
-.introBox > dl > dd {position: absolute; z-index: 1000; top:50%; margin-top: -100px; margin-top: -6.25rem; right: 0; width: 32rem; width: 37.481698vw; /*max-width: 600px;  max-width: 43.923865vw; */ height: 200px; height: 12.5rem; height: 14.641288vw; background-color: rgba(197,179,160,0.5); margin-bottom: 2rem;  font-size: 1.5rem; color: #000; text-align: left; padding: 2rem; box-sizing: border-box; line-height: 170%; word-break: keep-all;}
+.h3_area {width: auto; height: auto; margin-bottom: 50px; margin-bottom: 3.660322vw;}
+.h3_area > .gIcon {float: left; margin-right: 0.3rem; margin-top: 0.3rem; width: 2rem; height: 2rem; background-image: url("../../../img/icon/garlicIcon.png"); background-repeat: no-repeat; background-size: contain;}
+.h3_area > h3 {float: left; color: #fff; font-size: 2.5rem; text-shadow:0 0 15px #000;}
+
+.introBox > dl {position: relative; width: 100%; height: 300px; height: 21.961932vw; /* background-color: #fe0; */ margin-bottom: 50px; margin-bottom: 3.660322vw;}
+/* .introBox > dl:last-child {margin-bottom: 0;} */
+.introBox > dl > dt { width: 500px; width: 36.603221vw; height: 100%; background-color: #faa; margin-bottom: 2rem;}
+
+.cookspot_text01 > dt {background-image: url("../../../img/introduce/chef_pc.png"); background-repeat: no-repeat; background-size: cover;}
+.cookspot_text02 > dt {background-image: url("../../../img/introduce/wine.png"); background-repeat: no-repeat; background-size: cover;}
+.introBox > dl > dd {position: absolute; z-index: 1000; top:50%; margin-top: -100px; margin-top: -6.25rem; right: 0; width: 32rem; width: 37.481698vw; /*max-width: 600px;  max-width: 43.923865vw; */ height: 200px; height: 12.5rem; height: 14.641288vw; background-color: rgba(236,213,188,0.7); margin-bottom: 2rem;  font-size: 1.3rem; color: #000; text-align: left; padding: 2rem; box-sizing: border-box; line-height: 170%; word-break: keep-all;}
 .pride_text02 > dd, .cookspot_text02 > dd {position: absolute; left: 0; color: #fff;}
 
+.pride_text01 > dt {background-image: url("../../../img/introduce/garlic.png"); background-repeat: no-repeat; background-size: cover;}
+.pride_text02 > dt {background-image: url("../../../img/introduce/mix.png"); background-repeat: no-repeat; background-size: cover;}
+.pride_text02 > dt, .cookspot_text02 > dt {float: right;}

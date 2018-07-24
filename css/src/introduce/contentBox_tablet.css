@@ -1,10 +1,11 @@
 /*content_tablet.css*/
   @media screen and (min-width:481px) and (max-width:768px) { 
 
-.introBox {padding-top: 100px; padding-top: 6.25rem;}
-.introBox > p {font-size: 1rem; height: auto;}
-.introBox > h3 {font-size: 2rem;}
-.introBox > dl > dd {position: absolute; z-index: 1000; top:50%; margin-top: -70px; margin-top: -4.375rem; right: 0; font-size: 1rem; padding: 1rem; width: 320px; width: 41.666666vw; height: 140px; height: 18.229166vw; }
+#sub_navi {padding-top: 61px;}
+.introBox {padding-top: 150px;}
+.introBox > p {font-size: 1rem; height: auto; min-height: 5rem;}
+.h3_area> h3 {font-size: 1.5rem;}
+.introBox > dl > dd {position: absolute; z-index: 1000; top:10%; /* margin-top: -70px; margin-top: -4.375rem;  */right: 0; font-size: 0.8rem; padding: 0.5rem; width: auto; max-width: 65%; /* width: 41.666666vw; */ height: auto; max-height: 90%; /* height: 18.229166vw; */ margin-top: 0;}
 
 
   }
