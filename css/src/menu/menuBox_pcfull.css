@@ -1,2 +1,19 @@
 /*contentBox (min-width:1367px)*/
-@media screen and (min-width:1367px) { }
+@media screen and (min-width:1367px) { 
+
+#sub_navi > p {width: 100%; height: 100%; padding:0.5rem; margin-left: 180px; margin-left: 9.375vw; color: #fff;}
+/*------------------------------*/
+#menuBox {width: 60%;}
+.menu_banner {margin-bottom: 1rem;}
+#menu_image {width: 100%;}
+.big_image {margin: auto; width: 100%; max-height: 500px; margin-bottom: 2rem; background-image: url("../../../img/menu/biscotti_big.jpg"); background-size: 100% 100%; background-repeat: no-repeat;}
+
+#mini_menu_wrap {width: 100%;}
+.mini_menu {width: 18%; margin-right: 2%;}
+.mini_menu:last-of-type {margin-right: 0;}
+.imageM {width: 100%; height: 174px; background-color: #000;}
+.text {width: 100%; height: 66px; background-color: #F1EEE8; font-size: 1.1rem; padding: 0.7rem; box-sizing: border-box;}
+
+.text > dd {display: none;}
+
+}

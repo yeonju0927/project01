@@ -1,9 +1,25 @@
 /*공통영역*/
+
+#wrap {width: 100%; height: auto; background-image: url("../../../img/menu/wood_table_bgi.png"); background-repeat: no-repeat; background-size: cover;}
+
 #sub_navi {position: fixed; z-index: 10000; padding-top: 100px; padding-top: 6.25rem; width: 100%; height: 38px; background-color: #62272A; }
-#sub_navi > p {width: 100%; height: 100%; padding:0.5rem; margin-left: 10px; color: #fff;}
+#sub_navi > p {width: 100%; height: 100%; padding:0.5rem; margin-left: 20px; margin-left:1.464128vw ; color: #fff;}
+
+/*---------------------------------------------------------------------------------------------*/
 #menuBox {margin: auto; padding-top: 180px; padding-top: 11.25rem; width: 950px; width: 69.546120vw; height: auto;}
-.menu_banner {width: 100%; height: 343px; height: 25.109809vw; background-color: #fe0; margin-bottom: 3rem;}
-.big_image {width: 100%; height: 486px; height: 35.578330vw; background-color: #333; margin-bottom: 3rem;}
-.mini_image {width: 100%; height: 240px; height: 15rem; background-color: #fb3; margin-bottom: 3rem;}
-.mini_image > li {float: left; margin-right: 12px; margin-right: 0.878477vw; width: 180px; width: 13.177159vw; height: inherit; background-color: #ccc;}
-.mini_image > li:last-child {margin-right: 0;}
+.menu_banner {width: 100%; height: 343px; height: 25.109809vw; margin-bottom: 2rem; background-image: url("../../../img/menu/banner_march.png"); background-repeat: no-repeat; background-size: contain; background-position: center; }
+.big_image {width: 100%; height: 486px; height: 35.578330vw; background-image: url("../../../img/menu/"); margin-bottom: 3rem;}
+
+#mini_menu_wrap {width: 100%; height: 240px; height: 15rem; background-color: #fe0; margin-bottom: 3rem;}
+.mini_menu {float: left; margin-right: 12px; margin-right: 0.878477vw; /* margin-right: 0.75rem; */ width: 180px; width: 13.177159vw; /* width: 11.25rem; */ height: inherit; background-color: #fb3;}
+.mini_menu:last-child {margin-right: 0;}
+.imageM {width: 100%; height: 174px; background-repeat: no-repeat; background-size: 100% 100%; background-position: contain;}
+.text {width: 100%; height: 66px; background-color: #F1EEE8; font-size: 1.1rem;}
+.text > dt {font-weight: bold;}
+.text > dd > a {background-color: #fff; text-align: center; margin: auto; font-size: 1rem; font-weight: bold; cursor: pointer;}
+
+.menu01 {background-image: url("../../../img/menu/biscotti.jpg");}
+.menu02 {background-image: url("../../../img/menu/herbOlio.jpg");}
+.menu03 {background-image: url("../../../img/menu/steak.png");}
+.menu04 {background-image: url("../../../img/menu/herbRice.jpg");}
+.menu05 {background-image: url("../../../img/menu/herbPizza.jpg");}
