@@ -8,12 +8,20 @@
 /*---------------------------------------------------------------------------------------------*/
 #menuBox {margin: auto; padding-top: 180px; padding-top: 11.25rem; width: 950px; width: 69.546120vw; height: auto;}
 .menu_banner {width: 100%; height: 343px; height: 25.109809vw; margin-bottom: 2rem; background-image: url("../../../img/menu/banner_march.png"); background-repeat: no-repeat; background-size: contain; background-position: center; }
-.big_image {width: 100%; height: 486px; height: 35.578330vw; background-image: url("../../../img/menu/"); margin-bottom: 3rem;}
+.big_image {position: relative; width: 100%; height: 486px; height: 35.578330vw; margin-bottom: 3rem; background-repeat: no-repeat; background-size: contain;}
+.big_image.active:before {display: block; content: " "; width: 100%; height: 100%; background-color: rgba(31,31,31,0.6);}
+.active >.more_detail {opacity: 1;}
+
+
+.more_detail {position: absolute; top: 50%; margin-top: -30px; left: 50%; margin-left: -95px; display: block; width: 190px; height: 60px; background-color: #fff; font-size: 1.5rem; text-align: center; line-height: 60px; color: #000; opacity: 0}
+
+
 
 #mini_menu_wrap {width: 100%; height: 240px; height: 15rem; background-color: #fe0; margin-bottom: 3rem;}
 .mini_menu {float: left; margin-right: 12px; margin-right: 0.878477vw; /* margin-right: 0.75rem; */ width: 180px; width: 13.177159vw; /* width: 11.25rem; */ height: inherit; background-color: #fb3;}
 .mini_menu:last-child {margin-right: 0;}
 .imageM {width: 100%; height: 174px; background-repeat: no-repeat; background-size: 100% 100%; background-position: contain;}
+.imageM > a {display: block; width: 100%; height: 100%;}
 .text {width: 100%; height: 66px; background-color: #F1EEE8; font-size: 1.1rem;}
 .text > dt {font-weight: bold;}
 .text > dd > a {background-color: #fff; text-align: center; margin: auto; font-size: 1rem; font-weight: bold; cursor: pointer;}

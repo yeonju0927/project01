@@ -41,13 +41,13 @@
 #menu_image {width: 100%; height: auto;}
 .big_image {display: none;}
 #mini_menu_wrap {width: 100%; height: auto;}
-.mini_menu {width: 100%; height: 240px; margin-bottom: 15px;}
+.mini_menu {width: 100%; height: 240px; height: 15rem; margin-bottom: 15px; margin-bottom: 0.9375rem;}
 .mini_menu:last-child {margin-bottom: 0;}
-.imageM {float: left; width: 320px; height: inherit;}
-.text {float: left; width: 160px; height: inherit; padding:50px 10px; box-sizing: border-box;}
+.imageM {float: left; width: 320px; width: 66.666666vw; height: inherit;}
+.text {float: left; width: 160px; width: 33.333333vw; height: inherit; padding:50px 10px; padding:10.416666vw 0.625rem; box-sizing: border-box;}
 .text > dt {line-height: 140%; margin-bottom: 1rem;}
 .text > dd {text-align: right; margin-right: 1rem;}
 .text > dd:nth-of-type(2) {margin-right: 0;}
-.text > dd > a {display: block; width: 120px; height: 36px; margin-top: 1rem; font-size: 1rem; font-weight: bold; line-height: 36px;}
+.text > dd > a {display: block; width: 120px; width: 25vw; height: 36px;  height: 7.5vw; margin-top: 1rem; font-size: 1rem; font-weight: bold; line-height: 36px; line-height: 7.5vw;}
 
 }
