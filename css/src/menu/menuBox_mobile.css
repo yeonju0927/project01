@@ -20,7 +20,7 @@
 .text > dt {line-height: 140%; margin-bottom: 1rem;}
 .text > dd {text-align: right; margin-right: 1rem;}
 .text > dd:nth-of-type(2) {margin-right: 0;}
-.text > dd > a {display: block; width: 120px; height: 36px; margin-top: 1rem; font-size: 1rem; font-weight: bold; line-height: 36px;}
+.text > dd > a {display: block; width: 120px; height: 36px; margin-top: 1rem; font-size: 1rem;  line-height: 36px;}
 
 
 }
@@ -48,6 +48,6 @@
 .text > dt {line-height: 140%; margin-bottom: 1rem;}
 .text > dd {text-align: right; margin-right: 1rem;}
 .text > dd:nth-of-type(2) {margin-right: 0;}
-.text > dd > a {display: block; width: 120px; width: 25vw; height: 36px;  height: 7.5vw; margin-top: 1rem; font-size: 1rem; font-weight: bold; line-height: 36px; line-height: 7.5vw;}
+.text > dd > a {display: block; width: 120px; width: 25vw; height: 36px;  height: 7.5vw; margin-top: 1rem; font-size: 1rem;  line-height: 36px; line-height: 7.5vw;}
 
 }

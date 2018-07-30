@@ -20,13 +20,14 @@
 #mini_menu_wrap {width: 100%; height: 240px; height: 15rem; background-color: #fe0; margin-bottom: 3rem;}
 .mini_menu {float: left; margin-right: 12px; margin-right: 0.878477vw; /* margin-right: 0.75rem; */ width: 180px; width: 13.177159vw; /* width: 11.25rem; */ height: inherit; background-color: #fb3;}
 .mini_menu:last-child {margin-right: 0;}
-.imageM {width: 100%; height: 174px; background-repeat: no-repeat; background-size: 100% 100%; background-position: contain;}
+.imageM {width: 100%; height: 174px; background-repeat: no-repeat; background-size: cover; background-position: center; position: relative;}
 .imageM > a {display: block; width: 100%; height: 100%;}
+.imageM > i {background-image: url("../../../img/menu/new.png"); background-repeat: no-repeat; width: 74px; width: 4.625rem;  height: 74px; height: 4.625rem;  position: absolute; left: 0; top: 0;}
 .text {width: 100%; height: 66px; background-color: #F1EEE8; font-size: 1.1rem;}
-.text > dt {font-weight: bold;}
-.text > dd > a {background-color: #fff; text-align: center; margin: auto; font-size: 1rem; font-weight: bold; cursor: pointer;}
+.text > dt {font-weight: normal;}
+.text > dd > a {background-color: #fff; text-align: center; margin: auto; font-size: 1rem; font-weight: normal; cursor: pointer;}
 
-.menu01 {background-image: url("../../../img/menu/biscotti.jpg");}
+.menu01 {background-image: url("../../../img/menu/biscotti.jpg"); }
 .menu02 {background-image: url("../../../img/menu/herbOlio.jpg");}
 .menu03 {background-image: url("../../../img/menu/steak.png");}
 .menu04 {background-image: url("../../../img/menu/herbRice.jpg");}
