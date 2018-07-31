@@ -1,4 +1,3 @@
-
 @import url("./all/headBox.css");
 @import url("./all/headBox/headBox_mobile.css");
 @import url("./all/headBox/headBox_tablet.css");
@@ -6,12 +5,11 @@
 @import url("./all/headBox/headBox_pcfull.css");
 
 
-@import url("./menu/menuBox.css");
-@import url("./menu/menuBox_mobile.css");
-@import url("./menu/menuBox_tablet.css");
-@import url("./menu/menuBox_pc.css");
-@import url("./menu/menuBox_pcfull.css");
-
+/* @import url("./partners/partners.css");
+@import url("./partners/partners_mobile.css");
+@import url("./partners/partners_tablet.css");
+@import url("./partners/partners_pc.css");
+@import url("./partners/partners_pcfull.css"); */
 
 
 

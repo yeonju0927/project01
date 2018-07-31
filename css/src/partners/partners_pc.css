@@ -1,1 +1,24 @@
 /*partners_pc.css*/
+@media screen and (min-width:769px) and (max-width:1024px) { 
+#sub_navi > p {margin-left: 100px; margin-left: 9.765625vw; color: #fff;}
+#mobile_table {display: none;}
+#membership_banner > p {padding: 120px 60px; padding: 7.5rem 3.75rem; text-align: left; width: auto; height: 126px; height: 9.224011vw; font-size: 1.5rem; line-height: 200%; word-break: keep-all; color: #fff; }
+
+
+
+
+
+}
+
+/*일반 pc영역---------------------------------------------------*/
+@media screen and (min-width:1025px) and (max-width:1366px) {
+
+#sub_navi > p {margin-left: 100px; margin-left: 9.765625vw; color: #fff;}
+#mobile_table {display: none;}
+#membership_banner > p {padding: 120px 60px; padding: 7.5rem 3.75rem; text-align: left; width: auto; height: 126px; height: 9.224011vw; font-size: 1.5rem; line-height: 200%; word-break: keep-all; color: #fff; }
+
+
+
+
+
+ }

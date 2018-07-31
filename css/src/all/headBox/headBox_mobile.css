@@ -3,7 +3,7 @@
 
 .headBox_wrap {position: fixed; z-index: 12000;  width: 100%; height: 50px; height: 3.125rem;}
 
-#headBox {width: 100%; height: inherit; margin:0; background-color: #f66;}
+#headBox {width: 100%; height: inherit; margin:0;}
 h1 {position: absolute; left: 50%; margin-left: -70px; margin-left: -4.375rem;}
 .gnb_wrap {width: 100%; height: 100%; min-height: 454px; background-color: #F1EEE8;}
 .unb_wrap {display: none;}

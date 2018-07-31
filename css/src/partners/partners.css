@@ -1,19 +1,21 @@
 /*mfgarlic_partners.css*/
-#wrap {width: 100%; height: auto; background-color: #fff;}
+#wrap {width: 100%; height: auto; background-image: url("../../../img/partners/silver_pc.png");background-repeat: no-repeat; background-size: cover;}
 #sub_navi {position: fixed; z-index: 10000; padding-top: 100px; padding-top: 6.25rem; width: 100%; height: 38px; background-color: #62272A; }
 #sub_navi > p {width: 100%; height: 100%; padding:0.5rem; margin-left: 20px; margin-left:1.464128vw ; color: #fff;}
 
+/*--------------------------------------------------------*/
+#partners_Membership {margin: auto; width: 950px; width: 69.546120vw; height: auto; padding-top: 180px; padding-top: 11.25rem;}
 
-#partners_Membership {margin: auto; width: 950px; height: auto; padding-top: 180px; padding-top: 11.25rem;}
-
-#membership_banner {width: 100%; height: 338px; background-color: #fe0; margin-bottom: 2rem;}
-table {width: 100%; height: 654px; background-color: #fff; margin-bottom: 3rem;}
+#membership_banner {width: 100%; height: 338px; height: 21.125rem;  /* height: 24.743777vw; */ background-image: url("../../../img/partners/gift.png"); background-size: cover; background-repeat: no-repeat; margin-bottom: 2rem;}
+#membership_banner > p {padding: 120px 60px; padding: 7.5rem 3.75rem; text-align: left; width: 320px; width: 23.426061vw; height: 126px; height: 9.224011vw; font-size: 1.8rem; line-height: 200%; word-break: keep-all; color: #fff; }
+table {width: 100%; height: 654px; height: 40.875rem; margin-bottom: 3rem; box-shadow: 1px 1px 3px 1px #333;}
 .card_img {width: 30%;}
 .discount_percent {width: 20%;}
 .text_expln {width: 50%;}
-td {text-align: center;}
+th {height: 60px; height: 3.75rem;}
+td {text-align: center; background-color: #fff;}
 td > span {margin-top: 1rem; display: block;}
 td:nth-of-type(3) {text-align: left; line-height: 180%; padding: 2rem; box-sizing: border-box;}
-.cImg_all {background-size: contain; background-repeat: no-repeat; background-position: center;}
-.card_img1 {background-image: url("../../../img/partners/m_card.png");width: 152px; height: 240px;}
-.card_img2 {background-image: url("../../../img/partners/kt_membership.png"); width: 200px; height: 190px;}
+.cImg_all {background-size: 60%; background-repeat: no-repeat; background-position: center;}
+.card_img1 {background-image: url("../../../img/partners/m_card.png"); width: 152px; width: 9.5rem; height: 240px; height: 15rem;}
+.card_img2 {background-image: url("../../../img/partners/kt_membership.png"); width: 200px; width: 12.5rem; height: 190px; height: 11.875rem;}
